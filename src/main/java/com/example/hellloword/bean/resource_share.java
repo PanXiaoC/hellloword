@@ -12,6 +12,7 @@ public class resource_share {
     private String share_time;
     private int share_type;
     private String share_code;
+    
 
     public int getId() {
         return id;

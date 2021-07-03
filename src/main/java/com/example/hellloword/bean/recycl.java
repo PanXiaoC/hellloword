@@ -10,6 +10,7 @@ public class recycl {
     private String file_ext;
     private int file_size;
 
+
     public int getId() {
         return id;
     }

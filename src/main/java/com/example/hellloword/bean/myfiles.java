@@ -16,6 +16,7 @@ public class myfiles {
     private int is_give;
     private int is_download;
 
+
     public int getId() {
         return id;
     }
