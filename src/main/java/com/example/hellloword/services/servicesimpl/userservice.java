@@ -17,7 +17,7 @@ public class userservice implements userservies {
     private userdao udao;
     @Override
     public Map<String,String> login(userinfo user){
-        String s=udao.getuser(user);
+        String s=udao.getPwd(user);
         Map<String,String> map= new HashMap<>();
         if(s.equals(user.getPwd())){
             s="登录成功";
